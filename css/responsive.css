@@ -1,0 +1,715 @@
+@media screen and (max-width: 1539px){
+    .darkorlight {
+        top: 83%;
+    }
+    
+    .container {
+        width: 1200px;
+        margin: 0 auto;
+    }
+
+    .nav {
+        width: 1200px;
+        height: 115px;
+    }
+
+    .logo h1 {
+        font-size: 1.9rem;
+    }
+
+    .tentang {
+        height: 720px;
+    }
+
+    .tentang-right img{
+        width: 500px;
+        height: 400px;
+    }
+
+    .tentang-left .names {
+        font-size: 1rem;
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+    }
+
+    .tentang-left h1 {
+        font-size: 2.3rem;
+    }
+
+    .tentang-left p {
+        font-size: 16px;
+    }
+
+    .goal-left .mergurine {
+        width: 510px;
+        height: 300px;
+    }
+
+    /* Kaligrafi */
+    .black-kaligrafi {
+        width: 800px;
+        height: 650px;
+    }
+    .mergurine1{
+        /* black */
+        width: 100px;
+        height: 240px;
+        margin-left: 1px;
+        margin-bottom: -95px;
+        opacity: .8;
+    }
+    
+    .mergurine2{
+        /* black */
+        width: 230px;
+        margin-left: 330px;
+        margin-top: -5px;
+        height: 450px;
+        opacity: .8;
+    }
+    
+    .white-kaligrafi {
+        display: none;
+        width: 800px;
+        height: 650px;
+    }
+    .mergurinewht1{
+        /* black */
+        width: 100px;
+        height: 240px;
+        margin-left: 1px;
+        margin-bottom: -95px;
+        opacity: .8;
+    }
+    
+    .mergurinewht2{
+        /* black */
+        width: 230px;
+        margin-left: 330px;
+        margin-top: -5px;
+        height: 450px;
+        opacity: .8;
+    }
+
+    .goal-right {
+        width: 550px;
+        margin-top: -100px;
+    }
+
+    /* PROJECT */
+    .priject-styl {
+        width: 340px;
+        height: 430px;
+    }
+
+    .priject-styl img {
+        width: 100%;
+        height: 40%;
+    }
+
+    .priject-styl h2 {
+        margin-top: 20px;
+        font-size: 1.1rem;
+    }
+
+    .priject-styl p {
+        font-size: 1rem;
+    }
+
+    /* KONTAK */
+    .kontak-me{
+        width: 1000px;
+        height: 900px;
+    }
+
+    .form-kontak {
+        left: 0;
+    }
+}
+
+@media screen and (max-width: 1280px){
+    .container {
+        width: 1100px;
+        margin: 0 auto;
+    }
+
+    .logo h1 {
+        font-size: 1.9rem;
+    }
+
+    .nav {
+        width: 1100px;
+        height: 115px;
+    }
+
+    .tentang-right img{
+        width: 400px;
+        height: 300px;
+    }
+
+    .tentang-left .names {
+        font-size: .9rem;
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+    }
+
+    .tentang-left h1 {
+        font-size: 2.1rem;
+    }
+
+    .tentang-left p {
+        font-size: 15px;
+    }
+
+    .goal-left .mergurine {
+        width: 450px;
+        height: 250px;
+    }
+
+    /* Kaligrafi */
+    .black-kaligrafi {
+        width: 800px;
+        height: 650px;
+    }
+    .mergurine1{
+        /* black */
+        width: 85px;
+        height: 240px;
+        margin-left: 3px;
+        margin-bottom: -40px;
+        opacity: .8;
+    }
+    
+    .mergurine2{
+        /* black */
+        width: 200px;
+        margin-left: 300px;
+        margin-top: -5px;
+        height: 450px;
+        opacity: .8;
+    }
+    
+    .white-kaligrafi {
+        display: none;
+        width: 800px;
+        height: 650px;
+    }
+    .mergurinewht1{
+        /* black */
+        width: 85px;
+        height: 240px;
+        margin-left: 3px;
+        margin-bottom: -40px;
+        opacity: .8;
+    }
+    
+    .mergurinewht2{
+        /* black */
+        width: 200px;
+        margin-left: 300px;
+        margin-top: -5px;
+        height: 450px;
+        opacity: .8;
+    }
+    /* End Kaligrafi */
+
+    .goal-right {
+        width: 540px;
+        margin-top: -100px;
+    }
+
+    /* PROJECT */
+    .priject-styl {
+        width: 300px;
+        height: 395px;
+    }
+
+    .priject-styl img {
+        width: 100%;
+        height: 40%;
+    }
+
+    .priject-styl h2 {
+        margin-top: 5px;
+        font-size: 1.1rem;
+    }
+
+    .priject-styl p {
+        font-size: 1rem;
+        margin-top: -5px;
+    }
+
+    /* KONTAK */
+    .kontak-me{
+        width: 1000px;
+        height: 900px;
+    }
+
+    .form-kontak {
+        left: 0;
+    }
+}
+
+
+
+/* 1366 */
+
+@media screen and (max-width: 1366px){
+    .container {
+        width: 1100px;
+        margin: 0 auto;
+    }
+
+    .logo h1 {
+        font-size: 1.9rem;
+    }
+
+    .nav {
+        width: 1100px;
+        height: 115px;
+    }
+
+    .tentang-right img{
+        width: 400px;
+        height: 300px;
+    }
+
+    .tentang-left .names {
+        font-size: .9rem;
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+    }
+
+    .tentang-left h1 {
+        font-size: 2.1rem;
+    }
+
+    .tentang-left p {
+        font-size: 15px;
+    }
+
+    .goal-left .mergurine {
+        width: 450px;
+        height: 250px;
+    }
+
+    /* Kaligrafi */
+    .black-kaligrafi {
+        width: 800px;
+        height: 650px;
+    }
+    .mergurine1{
+        /* black */
+        width: 85px;
+        height: 240px;
+        margin-left: 3px;
+        margin-bottom: -40px;
+        opacity: .8;
+    }
+    
+    .mergurine2{
+        /* black */
+        width: 200px;
+        margin-left: 300px;
+        margin-top: -5px;
+        height: 450px;
+        opacity: .8;
+    }
+    
+    .white-kaligrafi {
+        display: none;
+        width: 800px;
+        height: 650px;
+    }
+    .mergurinewht1{
+        /* black */
+        width: 85px;
+        height: 240px;
+        margin-left: 3px;
+        margin-bottom: -40px;
+        opacity: .8;
+    }
+    
+    .mergurinewht2{
+        /* black */
+        width: 200px;
+        margin-left: 300px;
+        margin-top: -5px;
+        height: 450px;
+        opacity: .8;
+    }
+    /* End Kaligrafi */
+
+    .goal-right {
+        width: 540px;
+        margin-top: -100px;
+    }
+
+    /* PROJECT */
+    .priject-styl {
+        width: 300px;
+        height: 395px;
+    }
+
+    .priject-styl img {
+        width: 100%;
+        height: 40%;
+    }
+
+    .priject-styl h2 {
+        margin-top: 5px;
+        font-size: 1.1rem;
+    }
+
+    .priject-styl p {
+        font-size: 1rem;
+        margin-top: -5px;
+    }
+
+    /* KONTAK */
+    .kontak-me{
+        width: 1000px;
+        height: 900px;
+    }
+
+    .form-kontak {
+        left: 0;
+    }
+}
+
+@media screen and (max-width: 1143px){
+    .container {
+        width: 900px;
+        margin: 0 auto;
+    }
+
+    .logo h1 {
+        font-size: 1.7rem;
+    }
+
+    .nav {
+        width: 900px;
+        height: 115px;
+    }
+
+    .tentang-right img{
+        width: 300px;
+        height: 220px;
+    }
+
+    .tentang-left .names {
+        font-size: .8rem;
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+    }
+
+    .tentang-left h1 {
+        font-size: 1.9rem;
+    }
+
+    .tentang-left p {
+        font-size: 14px;
+    }
+
+    .goal-left .mergurine {
+        width: 360px;
+        height: 200px;
+    }
+
+    /* Kaligrafi */
+    .black-kaligrafi {
+        width: 800px;
+        height: 650px;
+    }
+    .mergurine1{
+        /* black */
+        width: 65px;
+        height: 160px;
+        margin-left: 10px;
+        margin-bottom: -85px;
+        opacity: .8;
+    }
+    
+    .mergurine2{
+        /* black */
+        width: 150px;
+        margin-left: 250px;
+        margin-top: 65px;
+        height: 250px;
+        opacity: .8;
+    }
+    
+    .white-kaligrafi {
+        display: none;
+        width: 800px;
+        height: 650px;
+    }
+    .mergurinewht1{
+        /* black */
+        width: 65px;
+        height: 160px;
+        margin-left: 10px;
+        margin-bottom: -85px;
+        opacity: .8;
+    }
+    
+    .mergurinewht2{
+        /* black */
+        width: 150px;
+        margin-left: 250px;
+        margin-top: 65px;
+        height: 250px;
+        opacity: .8;
+    }
+    /* End Kaligrafi */
+
+    .goal-right {
+        width: 420px;
+        margin-top: -15px;
+    }
+
+    .goal {
+        height: 600px;
+    }
+
+    .goal-right p {
+        font-size: 14px;
+    }
+
+    .goal-left {
+        padding-top: 16px;
+    }
+
+    .goal-left .mergurine {
+        top: 170px;
+    }
+
+    /* PROJECT */
+    .priject-styl {
+        width: 250px;
+        height: 450px;
+    }
+
+    .priject-styl img {
+        width: 100%;
+        height: 30%;
+    }
+
+    .priject-styl h2 {
+        margin-top: 20px;
+        font-size: 1.1rem;
+    }
+
+    .priject-styl p {
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+
+    /* KONTAK */
+    .kontak-me{
+        width: 1000px;
+        height: 900px;
+    }
+
+    .form-kontak {
+        left: 0;
+    }
+
+    .k-txt{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1005px){
+    .container {
+        width: 720px;
+        margin: 0 auto;
+    }
+
+    .burger {
+        display: block;
+        z-index: 999;
+    }
+
+    .logo h1 {
+        font-size: 1.7rem;
+    }
+
+    .nav {
+        width: 720px;
+        height: 115px;
+    }
+
+    nav {
+        width: 50%;
+        height: 100vh;
+        background-color: rgb(0, 155, 155);
+        border-left: 1px solid rgb(0, 0, 0);
+        position: fixed;
+        right: 0;
+        top: 0;
+        transform: translate(100%);
+        transition: .3s ease-in-out;
+    }
+
+    .bc-navu{
+        background-color: rgb(0, 83, 83);
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 50%;
+    }
+
+    nav ul li {
+        padding: 16px;
+    }
+
+    nav ul li a{
+        padding: 5px 13px;
+        background-color: rgb(255, 0, 0);
+        color: white;
+        box-shadow: 2px 2px 2px black;
+        border-radius: 10px;
+        border: 1px solid black;
+    }
+
+    nav ul li a:active {
+        background-color: white;
+    }
+
+    .nav-open{
+        transform: translate(0);
+        transition: .3s ease-in-out;
+    }
+
+    .animate-burger .line1 {
+        transform: rotate(45deg) translate(20px, 7px);
+        transition: .3s ease-in-out;
+    }
+
+    .animate-burger .line2 {
+        opacity: 0;
+        transition: .2s ease-in-out;
+    }
+
+    .animate-burger .line3 {
+        transform: rotate(-45deg) translate(6px, 7px);
+        transition: .3s ease-in-out;
+    }
+
+    /* TENTANG */
+    .tentang {
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .tentang-left {
+        margin-top: -40px;
+    }
+
+    .tentang-left p {
+        width: 600px;
+        font-size: 1rem;
+    }
+
+    .tentang-right {
+        padding-top: 80px;
+        margin: auto;
+        order: -1;
+    }
+
+    .tentang-right img {
+        width: 400px;
+        height: 300px;
+    }
+
+    /* GOALS */
+    .goal {
+        height: 200px;
+    }
+
+    .goal-left .mergurine {
+        width: 250px;
+        height: 150px;
+    }
+
+    /* Kaligrafi */
+    .black-kaligrafi {
+        width: 800px;
+        height: 650px;
+    }
+    .mergurine1{
+        /* black */
+        width: 55px;
+        height: 120px;
+        margin-left: 20px;
+        margin-bottom: -68px;
+        opacity: .8;
+    }
+    
+    .mergurine2{
+        /* black */
+        width: 100px;
+        margin-left: 165px;
+        margin-top: 90px;
+        height: 180px;
+        opacity: .8;
+    }
+    
+    .white-kaligrafi {
+        display: none;
+        width: 800px;
+        height: 650px;
+    }
+    .mergurinewht1{
+        /* black */
+        width: 55px;
+        height: 120px;
+        margin-left: 20px;
+        margin-bottom: -68px;
+        opacity: .8;
+    }
+    
+    .mergurinewht2{
+        /* black */
+        width: 100px;
+        margin-left: 165px;
+        margin-top: 90px;
+        height: 180px;
+        opacity: .8;
+    }
+    /* End Kaligrafi */
+
+    .goal-right {
+        width: 380px;
+        margin-top: -19px;
+    }
+
+    .goal {
+        height: 600px;
+    }
+
+    .goal-right h1 {
+        font-size: 2rem;
+    }
+
+    .goal-right p {
+        font-size: 14px;
+    }
+
+    .goal-left {
+        padding-top: 56px;
+    }
+
+    .goal-left .mergurine {
+        top: 210px;
+    }
+}
