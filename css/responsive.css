@@ -526,7 +526,7 @@
 
 @media screen and (max-width: 1005px){
     .container {
-        width: 900px;
+        width: 720px;
         margin: 0 auto;
     }
 
@@ -639,211 +639,20 @@
     .goal-left .mergurine {
         width: 250px;
         height: 150px;
+        margin-left: -20px;
     }
 
     /* Kaligrafi */
     .black-kaligrafi {
-        width: 800px;
-        height: 650px;
-    }
-    .mergurine1{
-        /* black */
-        width: 55px;
-        height: 120px;
-        margin-left: 20px;
-        margin-bottom: -68px;
-        opacity: .8;
-    }
-    
-    .mergurine2{
-        /* black */
-        width: 100px;
-        margin-left: 165px;
-        margin-top: 90px;
-        height: 180px;
-        opacity: .8;
-    }
-    
-    .white-kaligrafi {
-        display: none;
-        width: 800px;
-        height: 650px;
-    }
-    .mergurinewht1{
-        /* black */
-        width: 55px;
-        height: 120px;
-        margin-left: 20px;
-        margin-bottom: -68px;
-        opacity: .8;
-    }
-    
-    .mergurinewht2{
-        /* black */
-        width: 100px;
-        margin-left: 165px;
-        margin-top: 90px;
-        height: 180px;
-        opacity: .8;
-    }
-    /* End Kaligrafi */
-
-    .goal-right {
-        width: 380px;
-        margin-top: -19px;
-    }
-
-    .goal {
-        height: 600px;
-    }
-
-    .goal-right h1 {
-        font-size: 2rem;
-    }
-
-    .goal-right p {
-        font-size: 14px;
-    }
-
-    .goal-left {
-        padding-top: 56px;
-    }
-
-    .goal-left .mergurine {
-        top: 210px;
-    }
-}
-
-/* 800 */
-
-@media screen and (max-width: 900px){
-    .container {
-        width: 800px;
-        margin: 0 auto;
-    }
-
-    .burger {
-        display: block;
-        z-index: 999;
-    }
-
-    .logo h1 {
-        font-size: 1.7rem;
-    }
-
-    .nav {
-        width: 720px;
-        height: 115px;
-    }
-
-    nav {
-        width: 50%;
-        height: 100vh;
-        background-color: rgb(0, 155, 155);
-        border-left: 1px solid rgb(0, 0, 0);
-        position: fixed;
-        right: 0;
-        top: 0;
-        transform: translate(100%);
-        transition: .3s ease-in-out;
-    }
-
-    .bc-navu{
-        background-color: rgb(0, 83, 83);
-    }
-
-    nav ul {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        margin-top: 50%;
-    }
-
-    nav ul li {
-        padding: 16px;
-    }
-
-    nav ul li a{
-        padding: 5px 13px;
-        background-color: rgb(255, 0, 0);
-        color: white;
-        box-shadow: 2px 2px 2px black;
-        border-radius: 10px;
-        border: 1px solid black;
-    }
-
-    nav ul li a:active {
-        background-color: white;
-    }
-
-    .nav-open{
-        transform: translate(0);
-        transition: .3s ease-in-out;
-    }
-
-    .animate-burger .line1 {
-        transform: rotate(45deg) translate(20px, 7px);
-        transition: .3s ease-in-out;
-    }
-
-    .animate-burger .line2 {
-        opacity: 0;
-        transition: .2s ease-in-out;
-    }
-
-    .animate-burger .line3 {
-        transform: rotate(-45deg) translate(6px, 7px);
-        transition: .3s ease-in-out;
-    }
-
-    /* TENTANG */
-    .tentang {
-        display: grid;
-        grid-template-columns: 1fr;
-        text-align: center;
-    }
-
-    .tentang-left {
-        margin-top: -40px;
-    }
-
-    .tentang-left p {
-        width: 600px;
-        font-size: 1rem;
-    }
-
-    .tentang-right {
-        padding-top: 80px;
-        margin: auto;
-        order: -1;
-    }
-
-    .tentang-right img {
         width: 400px;
-        height: 300px;
-    }
-
-    /* GOALS */
-    .goal {
-        height: 200px;
-    }
-
-    .goal-left .mergurine {
-        width: 250px;
-        height: 150px;
-    }
-
-    /* Kaligrafi */
-    .black-kaligrafi {
-        width: 800px;
-        height: 650px;
+        height: 450px;
     }
     .mergurine1{
         /* black */
         width: 55px;
         height: 120px;
-        margin-left: 20px;
         margin-bottom: -68px;
+        margin-left: 0px;
         opacity: .8;
     }
     
@@ -905,18 +714,406 @@
         top: 210px;
     }
 
-    /* KONTAK */
-    .kontak-me{
-        width: 1000px;
+        .projects {
+        transition: .3s ease-in-out;
+    }
+
+    /* Project */
+    .project {
+        width: 1005px;
         height: 900px;
     }
 
-    .form-kontak {
-        left: 0;
+    .judul-halaman h1{
+        text-align: center;
+        font-size: 2.5rem;
+        font-family: "Alfa Slab One", sans-serif;
+        padding-top: 150px;
+        margin-bottom: 80px;
+        text-shadow: 2px 2px 1px red;
     }
 
-    .k-txt{
+    .kum-project {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 50px;
+    }
+
+    .priject-styl {
+        width: 250px;
+        height: 350px;
+        margin: auto;
+        border: 1px solid rgba(0, 0, 0, 0.582);
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.521);
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .bdr-white {
+        box-shadow: 2px 2px 2px 2px rgba(255, 255, 255, 0.521);
+    }
+
+    .priject-styl img {
+        width: 100%;
+        height: 40%;
+    }
+
+    .priject-styl h2 {
+        margin-top: 10px;
+        padding: 0 10px;
+        font-size: 1.2rem;
+        text-align: center;
+        font-weight: 900;
+        font-family: "exo", sans-serif;
+    }
+
+    .priject-styl p {
+        padding: 20px;
+        text-align: center;
+        font-size: 0.81rem;
+        font-weight: 400;
+    }
+
+    .kontak-me{
+        width: 1005px;
+        height: 900px;
+    }
+    
+    .kum-kontak-3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        margin: auto;
+    }
+    
+    .sosmed {
+        width: 400px;
+        height: 400px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .Icon {
+        display: flex;
+        flex-direction: column;
+        margin-top: 17px;
+    }
+    
+    .text-icon {
+        margin-top: -18px;
+    }
+    .form-kontak {
+        left: 10%;
+    }
+    
+    .k-txt {
+        margin: auto;
+    }
+    
+    .kotak-form {
+        width: 500px;
+        height: 450px;
+        padding-top: 25%;
+        margin: auto;
+        margin-top: -10px;
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .container {
+        width: 720px;
+        margin: 0 auto;
+    }
+
+    .burger {
+        display: block;
+        z-index: 999;
+    }
+
+    .logo h1 {
+        font-size: 1.7rem;
+    }
+
+    .nav {
+        width: 720px;
+        height: 115px;
+    }
+
+    nav {
+        width: 50%;
+        height: 100vh;
+        background-color: rgb(0, 155, 155);
+        border-left: 1px solid rgb(0, 0, 0);
+        position: fixed;
+        right: 0;
+        top: 0;
+        transform: translate(100%);
+        transition: .3s ease-in-out;
+    }
+
+    .bc-navu{
+        background-color: rgb(0, 83, 83);
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 50%;
+    }
+
+    nav ul li {
+        padding: 16px;
+    }
+
+    nav ul li a{
+        padding: 5px 13px;
+        background-color: rgb(255, 0, 0);
+        color: white;
+        box-shadow: 2px 2px 2px black;
+        border-radius: 10px;
+        border: 1px solid black;
+    }
+
+    nav ul li a:active {
+        background-color: white;
+    }
+
+    .nav-open{
+        transform: translate(0);
+        transition: .3s ease-in-out;
+    }
+
+    .animate-burger .line1 {
+        transform: rotate(45deg) translate(20px, 7px);
+        transition: .3s ease-in-out;
+    }
+
+    .animate-burger .line2 {
+        opacity: 0;
+        transition: .2s ease-in-out;
+    }
+
+    .animate-burger .line3 {
+        transform: rotate(-45deg) translate(6px, 7px);
+        transition: .3s ease-in-out;
+    }
+
+    /* TENTANG */
+    .tentang {
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .tentang-left {
+        margin-top: -40px;
+    }
+
+    .tentang-left p {
+        width: 600px;
+        font-size: 1rem;
+    }
+
+    .tentang-right {
+        padding-top: 80px;
+        margin: auto;
+        order: -1;
+    }
+
+    .tentang-right img {
+        width: 400px;
+        height: 300px;
+    }
+
+    /* GOALS */
+    .goal {
+        height: 200px;
+    }
+
+    .goal-left .mergurine {
+        width: 250px;
+        height: 150px;
+        margin-left: -20px;
+    }
+
+    /* Kaligrafi */
+    .black-kaligrafi {
+        width: 400px;
+        height: 450px;
+    }
+    .mergurine1{
+        /* black */
+        width: 55px;
+        height: 120px;
+        margin-bottom: -68px;
+        margin-left: 0px;
+        opacity: .8;
+    }
+    
+    .mergurine2{
+        /* black */
+        width: 100px;
+        margin-left: 165px;
+        margin-top: 90px;
+        height: 180px;
+        opacity: .8;
+    }
+    
+    .white-kaligrafi {
         display: none;
+        width: 800px;
+        height: 650px;
+    }
+    .mergurinewht1{
+        /* black */
+        width: 55px;
+        height: 120px;
+        margin-left: 20px;
+        margin-bottom: -68px;
+        opacity: .8;
+    }
+    
+    .mergurinewht2{
+        /* black */
+        width: 100px;
+        margin-left: 165px;
+        margin-top: 90px;
+        height: 180px;
+        opacity: .8;
+    }
+    /* End Kaligrafi */
+
+    .goal-right {
+        width: 380px;
+        margin-top: -19px;
+    }
+
+    .goal {
+        height: 600px;
+    }
+
+    .goal-right h1 {
+        font-size: 2rem;
+    }
+
+    .goal-right p {
+        font-size: 14px;
+    }
+
+    .goal-left {
+        padding-top: 56px;
+    }
+
+    .goal-left .mergurine {
+        top: 210px;
+    }
+
+        .projects {
+        transition: .3s ease-in-out;
+    }
+
+    /* Project */
+    .project {
+        width: 900px;
+        height: 900px;
+    }
+
+    .judul-halaman h1{
+        text-align: center;
+        font-size: 2.5rem;
+        font-family: "Alfa Slab One", sans-serif;
+        padding-top: 150px;
+        margin-bottom: 80px;
+        text-shadow: 2px 2px 1px red;
+    }
+
+    .kum-project {
+        display: grid;
+        grid-template-columns: 0.7fr 0.7fr 0.7fr;
+        gap: 1rem;
+    }
+
+    .priject-styl {
+        width: 250px;
+        height: 350px;
+        margin: auto;
+        border: 1px solid rgba(0, 0, 0, 0.582);
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.521);
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .bdr-white {
+        box-shadow: 2px 2px 2px 2px rgba(255, 255, 255, 0.521);
+    }
+
+    .priject-styl img {
+        width: 100%;
+        height: 40%;
+    }
+
+    .priject-styl h2 {
+        margin-top: 10px;
+        padding: 0 10px;
+        font-size: 1.2rem;
+        text-align: center;
+        font-weight: 900;
+        font-family: "exo", sans-serif;
+    }
+
+    .priject-styl p {
+        padding: 20px;
+        text-align: center;
+        font-size: 0.81rem;
+        font-weight: 400;
+    }
+
+    .kontak-me{
+        width: 900px;
+        height: 900px;
+    }
+    
+    .kum-kontak-3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        margin: auto;
+    }
+    
+    .sosmed {
+        width: 400px;
+        height: 400px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .Icon {
+        display: flex;
+        flex-direction: column;
+        margin-top: 17px;
+    }
+    
+    .text-icon {
+        margin-left: -100px;
+        width: 100px;
+        margin-top: -18px;
+    }
+    
+    .k-txt {
+        margin: auto;
+    }
+    
+    .kotak-form {
+        width: 500px;
+        height: 450px;
+        padding-top: 25%;
+        margin: auto;
+        margin-top: -10px;
+        position: relative;
     }
 }
 
@@ -1035,19 +1232,20 @@
     .goal-left .mergurine {
         width: 250px;
         height: 150px;
+        margin-left: -20px;
     }
 
     /* Kaligrafi */
     .black-kaligrafi {
-        width: 800px;
-        height: 650px;
+        width: 400px;
+        height: 450px;
     }
     .mergurine1{
         /* black */
         width: 55px;
         height: 120px;
-        margin-left: 20px;
         margin-bottom: -68px;
+        margin-left: 0px;
         opacity: .8;
     }
     
@@ -1109,10 +1307,43 @@
         top: 210px;
     }
 
-    /* PROJECT */
+        .projects {
+        transition: .3s ease-in-out;
+    }
+
+    /* Project */
+    .project {
+        width: 800px;
+        height: 900px;
+    }
+
+    .judul-halaman h1{
+        text-align: center;
+        font-size: 2.5rem;
+        font-family: "Alfa Slab One", sans-serif;
+        padding-top: 150px;
+        margin-bottom: 80px;
+        text-shadow: 2px 2px 1px red;
+    }
+
+    .kum-project {
+        display: grid;
+        grid-template-columns: 0.7fr 0.7fr 0.7fr;
+        gap: 1rem;
+    }
+
     .priject-styl {
-        width: 220px;
-        height: 355px;
+        width: 200px;
+        height: 300px;
+        margin: auto;
+        border: 1px solid rgba(0, 0, 0, 0.582);
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.521);
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .bdr-white {
+        box-shadow: 2px 2px 2px 2px rgba(255, 255, 255, 0.521);
     }
 
     .priject-styl img {
@@ -1121,43 +1352,364 @@
     }
 
     .priject-styl h2 {
-        margin-top: 5px;
+        margin-top: 10px;
+        padding: 0 10px;
         font-size: 1rem;
+        text-align: center;
+        font-weight: 900;
+        font-family: "exo", sans-serif;
     }
 
     .priject-styl p {
-        font-size: 0.8rem;
-        margin-top: -5px;
+        padding: 20px;
+        text-align: center;
+        font-size: 0.7rem;
+        font-weight: 400;
     }
 
-    /* KONTAK */
-    .kotak-form {
-        width: 410px;
-        height: 350px;
-    }
-    input {
-        width: 340px;
-    }
-    textarea {
-        width: 340px;
-    }
-    .btn button {
-        width: 340px;
-    }
     .kontak-me{
-        width: 900px;
-        height: 900px;
+        width: 800px;
+        height: 1200px;
     }
-
+    
+    .kum-kontak-3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-columns: auto;
+        align-items: center;
+        margin: auto;
+    }
+    
+    .sosmed {
+        width: 400px;
+        height: 400px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .Icon {
+        display: flex;
+        flex-direction: column;
+        margin-top: 17px;
+    }
+    
+    .text-icon {
+        margin-top: -18px;
+    }
+    
+    .k-txt {
+        margin: auto;
+    }
+    
+    .kotak-form {
+        width: 500px;
+        height: 450px;
+        padding-top: 25%;
+        margin: auto;
+        margin-top: -10px;
+        position: relative;
+    }
     .form-kontak {
         left: 0;
     }
-
-    .k-txt{
-        display: none;
-    }
 }
 
+@media screen and (max-width: 720px){
+    .container {
+        width: 620px;
+        margin: 0 auto;
+    }
+
+    .burger {
+        display: block;
+        z-index: 999;
+    }
+
+    .logo h1 {
+        font-size: 1.7rem;
+    }
+
+    .nav {
+        width: 620px;
+        height: 115px;
+    }
+
+    nav {
+        width: 50%;
+        height: 100vh;
+        background-color: rgb(0, 155, 155);
+        border-left: 1px solid rgb(0, 0, 0);
+        position: fixed;
+        right: 0;
+        top: 0;
+        transform: translate(100%);
+        transition: .3s ease-in-out;
+    }
+
+    .bc-navu{
+        background-color: rgb(0, 83, 83);
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 50%;
+    }
+
+    nav ul li {
+        padding: 16px;
+    }
+
+    nav ul li a{
+        padding: 5px 13px;
+        background-color: rgb(255, 0, 0);
+        color: white;
+        box-shadow: 2px 2px 2px black;
+        border-radius: 10px;
+        border: 1px solid black;
+    }
+
+    nav ul li a:active {
+        background-color: white;
+    }
+
+    .nav-open{
+        transform: translate(0);
+        transition: .3s ease-in-out;
+    }
+
+    .animate-burger .line1 {
+        transform: rotate(45deg) translate(20px, 7px);
+        transition: .3s ease-in-out;
+    }
+
+    .animate-burger .line2 {
+        opacity: 0;
+        transition: .2s ease-in-out;
+    }
+
+    .animate-burger .line3 {
+        transform: rotate(-45deg) translate(6px, 7px);
+        transition: .3s ease-in-out;
+    }
+
+    /* TENTANG */
+    .tentang {
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .tentang-left {
+        margin-top: -40px;
+    }
+
+    .tentang-left p {
+        width: 600px;
+        font-size: 1rem;
+    }
+
+    .tentang-right {
+        padding-top: 80px;
+        margin: auto;
+        order: -1;
+    }
+
+    .tentang-right img {
+        width: 400px;
+        height: 300px;
+    }
+
+    /* GOALS */
+    .goal-left .mergurine {
+        width: 350px;
+        height: 220px;
+        margin-left: 16%;
+        margin-top: -90px;
+    }
+
+    /* Kaligrafi */
+    .black-kaligrafi {
+        width: 600px;
+        height: 450px;
+    }
+    .mergurine1{
+        /* black */
+        width: 90px;
+        height: 150px;
+        margin-bottom: -140px;
+        margin-left: 105px;
+        opacity: .8;
+    }
+    
+    .mergurine2{
+        /* black */
+        width: 150px;
+        margin-left: 220px;
+        margin-top: -9px;
+        height: 200px;
+        opacity: .8;
+    }
+    
+    .white-kaligrafi {
+        display: none;
+        width: 600px;
+        height: 450px;
+    }
+    .mergurinewht1{
+        /* black */
+        width: 90px;
+        height: 150px;
+        margin-bottom: -140px;
+        margin-left: 105px;
+        opacity: .8;
+    }
+    
+    .mergurinewht2{
+        /* black */
+        width: 150px;
+        margin-left: 220px;
+        margin-top: -9px;
+        height: 200px;
+        opacity: .8;
+    }
+    /* End Kaligrafi */
+
+    .goal-right {
+        width: 380px;
+        margin-top: 320px;
+    }
+
+    .goal {
+        height: 800px;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .goal-right h1 {
+        font-size: 2rem;
+    }
+
+    .goal-right p {
+        font-size: 14px;
+    }
+
+    .goal-left {
+        padding-top: 56px;
+    }
+
+    .goal-left .mergurine {
+        top: 210px;
+    }
+
+    .projects {
+        transition: .3s ease-in-out;
+    }
+
+    /* Project */
+    .project {
+        width: 720px;
+        height: 900px;
+    }
+
+    .judul-halaman h1{
+        text-align: center;
+        font-size: 2.5rem;
+        font-family: "Alfa Slab One", sans-serif;
+        padding-top: 150px;
+        margin-bottom: 80px;
+        text-shadow: 2px 2px 1px red;
+    }
+
+    .kum-project {
+        display: grid;
+        grid-template-columns: 0.7fr 0.7fr 0.7fr;
+        gap: 1rem;
+    }
+
+    .priject-styl {
+        width: 180px;
+        height: 300px;
+        margin: auto;
+        border: 1px solid rgba(0, 0, 0, 0.582);
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.521);
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .bdr-white {
+        box-shadow: 2px 2px 2px 2px rgba(255, 255, 255, 0.521);
+    }
+
+    .priject-styl img {
+        width: 100%;
+        height: 35%;
+    }
+
+    .priject-styl h2 {
+        margin-top: 10px;
+        padding: 0 10px;
+        font-size: 1rem;
+        text-align: center;
+        font-weight: 900;
+        font-family: "exo", sans-serif;
+    }
+
+    .priject-styl p {
+        padding: 20px;
+        text-align: center;
+        font-size: 0.66rem;
+        font-weight: 400;
+    }
+
+    .kontak-me{
+        width: 720px;
+        height: 1200px;
+    }
+    
+    .kum-kontak-3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-columns: auto;
+        align-items: center;
+        margin: auto;
+    }
+    
+    .sosmed {
+        width: 400px;
+        height: 400px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .Icon {
+        display: flex;
+        flex-direction: column;
+        margin-top: 17px;
+    }
+    
+    .text-icon {
+        margin-top: -18px;
+    }
+    
+    .k-txt {
+        margin: auto;
+    }
+    
+    .kotak-form {
+        width: 500px;
+        height: 450px;
+        padding-top: 25%;
+        margin: auto;
+        margin-top: -10px;
+        position: relative;
+    }
+    .form-kontak {
+        left: 0;
+    }
+}
 
 @media screen and (max-width: 428px){
     .container {
@@ -1165,25 +1717,13 @@
         margin: 0 auto;
     }
 
-    /* BURGER */
-    .burger {
-        margin: 30px;
-        display: none;
-    }
-
-    .burger div {
-        width: 20px;
-        height: 2px;
-        background-color: black;
-        margin: 4px;
-    }
     .burger {
         display: block;
         z-index: 999;
     }
 
     .logo h1 {
-        font-size: 1.3rem;
+        font-size: 1.7rem;
     }
 
     .nav {
@@ -1210,14 +1750,12 @@
     nav ul {
         display: flex;
         flex-direction: column;
-        position: absolute;
-        left: 20%;
         text-align: center;
         margin-top: 50%;
     }
 
     nav ul li {
-        padding: 13px;
+        padding: 16px;
     }
 
     nav ul li a{
@@ -1239,7 +1777,7 @@
     }
 
     .animate-burger .line1 {
-        transform: rotate(45deg) translate(0px, 9px);
+        transform: rotate(45deg) translate(20px, 7px);
         transition: .3s ease-in-out;
     }
 
@@ -1249,7 +1787,7 @@
     }
 
     .animate-burger .line3 {
-        transform: rotate(-45deg) translate(0px, -9px);
+        transform: rotate(-45deg) translate(6px, 7px);
         transition: .3s ease-in-out;
     }
 
@@ -1263,22 +1801,21 @@
     .tentang-left {
         margin-top: -40px;
     }
-    .tentang-left .names {
-        font-size: .7rem;
-        font-weight: 400;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-    }
 
+    .tentang-left .names {
+        font-size: .8rem;
+        font-weight: 350;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+    }
     .tentang-left h1 {
-        font-size: 1.5rem;
-        margin-bottom: 30px;
+        font-size: 1.7rem;
     }
 
     .tentang-left p {
-        margin: auto;
-        width: 350px;
+        width: 300px;
         font-size: 1rem;
+        margin: auto;
     }
 
     .tentang-right {
@@ -1293,419 +1830,83 @@
     }
 
     /* GOALS */
-    .goal {
-        height: 800px;
-    }
-
     .goal-left .mergurine {
-        width: 300px;
-        height: 190px;
-        margin-top: -130px;
+        width: 250px;
+        height: 150px;
+        margin-left: 10%;
+        margin-top: -110px;
     }
 
     /* Kaligrafi */
     .black-kaligrafi {
-        width: 900px;
-        height: 750px;
-    }
-    .mergurine1{
-        /* black */
-        width: 85px;
-        height: 150px;
-        margin-left: 13px;
-        margin-bottom: 50px;
-        opacity: .8;
-    }
-    
-    .mergurine2{
-        /* black */
-        width: 165px;
-        margin-left: 158px;
-        margin-bottom: 155px;
-        margin-top: -50px;
-        height: 200px;
-        opacity: .8;
-    }
-    
-    .white-kaligrafi {
-        display: none;
-        width: 800px;
-        height: 750px;
-    }
-    .mergurinewht1{
-        /* black */
-        width: 85px;
-        height: 150px;
-        margin-left: 13px;
-        margin-bottom: 50px;
-        opacity: .8;
-    }
-    
-    .mergurinewht2{
-        /* black */
-        width: 165px;
-        margin-left: 158px;
-        margin-bottom: 155px;
-        margin-top: -50px;
-        height: 200px;
-        opacity: .8;
-    }
-    /* End Kaligrafi */
-
-    .goal-right {
-        width: 380px;
-        margin-top: 250px;
-        right: 10px;
-    }
-
-    .goal {
-        height: 700px;
-    }
-
-    .goal-right h1 {
-        font-size: 2rem;
-    }
-
-    .goal-right p {
-        font-size: 14px;
-    }
-
-    .goal-left {
-        padding-top: 56px;
-    }
-
-    .goal-left .mergurine {
-        top: 210px;
-    }
-
-    /* PROJECT */
-    .project {
-        height: 1600px;
-    }
-    .judul-halaman h1{
-        padding-top: 100px;
-        margin-bottom: 100px;
-        font-size: 2.3rem;
-    }
-    .kum-project {
-        grid-template-columns: auto;
-        gap: 4rem;
-    }
-    .priject-styl {
-        width: 220px;
-        height: 355px;
-    }
-
-    .priject-styl img {
-        width: 100%;
-        height: 35%;
-    }
-
-    .priject-styl h2 {
-        margin-top: 5px;
-        font-size: 1rem;
-    }
-
-    .priject-styl p {
-        font-size: 0.8rem;
-        margin-top: -5px;
-    }
-
-    /* Skills */
-    .skill {
-        width: 380px;
-        height: 910px;
-    }
-
-    .list-skill {
-        height: 300px;
-    }
-
-    .list-skill ul {
-        margin-top: 24px;
-    }
-
-    .list-skill ul li {
-        font-size: 1rem;
-        font-family: "Alfa Slab One", sans-serif;
-        padding: 20px 0 20px 39px;
-        margin-bottom: 70px;
-        position: relative;
-    }
-
-    .list-skill ul li:before {
-        content: "";
-        width: 13px;
-        height: 13px;
-        background-color: red;
-        border: 1px solid green;
-        border-radius: 50%;
-        position: absolute;
-        top: 35%;
-        left: 0;
-    }
-
-    .pen-skill {
-        height: 300px;
-        padding-top: 20px;
-    }
-
-    .pen-skill p {
-        font-size: 0.9rem;
-        font-weight: 310;
-        padding: 10px 0 10px 40px;
-        position: relative;
-    }
-    /* KONTAK */
-    .kontak-me{
         width: 400px;
-        height: 1120px;
-    }
-    
-    .kum-kontak-3 {
-        grid-template-columns: auto;
-    }
-    
-    .sosmed {
-       margin-left: -1px;
-       margin-top: 20px;
-    }
-    
-    .Icon {
-        display: flex;
-        flex-direction: column;
-        margin-top: 17px;
-    }
-    
-    .text-icon {
-        margin-top: -18px;
-    }
-    
-    .k-txt {
-        margin: auto;
-    }
-    
-    .kotak-form {
-        width: 500px;
         height: 450px;
-        padding-top: 25%;
-        margin: auto;
-        margin-top: -10px;
-        position: relative;
-    }
-}
-
-@media screen and (max-width: 375px){
-    .container {
-        width: 360px;
-        margin: 0 auto;
-    }
-
-    /* BURGER */
-    .burger {
-        margin: 30px;
-        display: none;
-    }
-
-    .burger div {
-        width: 20px;
-        height: 2px;
-        background-color: black;
-        margin: 4px;
-    }
-    .burger {
-        display: block;
-        z-index: 999;
-    }
-
-    .logo h1 {
-        font-size: 1.3rem;
-    }
-
-    .nav {
-        width: 360px;
-        height: 115px;
-    }
-
-    nav {
-        width: 50%;
-        height: 100vh;
-        background-color: rgb(0, 155, 155);
-        border-left: 1px solid rgb(0, 0, 0);
-        position: fixed;
-        right: 0;
-        top: 0;
-        transform: translate(100%);
-        transition: .3s ease-in-out;
-    }
-
-    .bc-navu{
-        background-color: rgb(0, 83, 83);
-    }
-
-    nav ul {
-        display: flex;
-        flex-direction: column;
-        position: absolute;
-        left: 20%;
-        text-align: center;
-        margin-top: 50%;
-    }
-
-    nav ul li {
-        padding: 13px;
-    }
-
-    nav ul li a{
-        padding: 5px 13px;
-        background-color: rgb(255, 0, 0);
-        color: white;
-        box-shadow: 2px 2px 2px black;
-        border-radius: 10px;
-        border: 1px solid black;
-    }
-
-    nav ul li a:active {
-        background-color: white;
-    }
-
-    .nav-open{
-        transform: translate(0);
-        transition: .3s ease-in-out;
-    }
-
-    .animate-burger .line1 {
-        transform: rotate(45deg) translate(0px, 9px);
-        transition: .3s ease-in-out;
-    }
-
-    .animate-burger .line2 {
-        opacity: 0;
-        transition: .2s ease-in-out;
-    }
-
-    .animate-burger .line3 {
-        transform: rotate(-45deg) translate(0px, -9px);
-        transition: .3s ease-in-out;
-    }
-
-    /* TENTANG */
-    .tentang {
-        display: grid;
-        grid-template-columns: 1fr;
-        text-align: center;
-    }
-
-    .tentang-left {
-        margin-top: -40px;
-    }
-    .tentang-left .names {
-        font-size: .7rem;
-        font-weight: 400;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-    }
-
-    .tentang-left h1 {
-        font-size: 1.5rem;
-        margin-bottom: 30px;
-    }
-
-    .tentang-left p {
-        margin: auto;
-        width: 350px;
-        font-size: 1rem;
-    }
-
-    .tentang-right {
-        padding-top: 80px;
-        margin: auto;
-        order: -1;
-    }
-
-    .tentang-right img {
-        width: 300px;
-        height: 230px;
-    }
-
-    /* GOALS */
-    .goal {
-        height: 800px;
-    }
-
-    .goal-left .mergurine {
-        width: 270px;
-        height: 165px;
-        margin-top: -130px;
-    }
-
-    /* Kaligrafi */
-    .black-kaligrafi {
-        width: 900px;
-        height: 750px;
     }
     .mergurine1{
         /* black */
-        width: 85px;
+        width: 70px;
         height: 150px;
-        margin-left: 13px;
-        margin-bottom: 70px;
-        opacity: .8;
-    }
-    
-    .mergurine2{
-        /* black */
-        width: 165px;
-        margin-left: 128px;
-        margin-bottom: 150px;
-        margin-top: -50px;
-        height: 200px;
-        opacity: .8;
-    }
-    
-    .white-kaligrafi {
-        display: none;
-        width: 800px;
-        height: 750px;
-    }
-    .mergurinewht1{
-        /* black */
-        width: 85px;
-        height: 150px;
-        margin-left: 13px;
-        margin-bottom: 70px;
-        opacity: .8;
-    }
-    
-    .mergurinewht2{
-        /* black */
-        width: 165px;
-        margin-left: 128px;
-        margin-bottom: 150px;
-        margin-top: -50px;
-        height: 200px;
-        opacity: .8;
-    }
-    /* End Kaligrafi */
-
-    .goal-right {
-        width: 380px;
-        margin-top: 250px;
-        right: 10px;
-    }
-
-    .goal {
-        height: 700px;
-    }
-
-    .goal-right h1 {
-        font-size: 1.8rem;
-    }
-
-    .goal-right p {
-        font-size: 14px;
-        width: 310px;
+        margin-bottom: -225px;
         margin-left: 55px;
+        opacity: .8;
+    }
+    
+    .mergurine2{
+        /* black */
+        width: 150px;
+        margin-left: 260px;
+        margin-top: -49px;
+        height: 200px;
+        opacity: .8;
+    }
+    
+    .white-kaligrafi {
+        display: none;
+        width: 400px;
+        height: 450px;
+    }
+    .mergurinewht1{
+        /* black */
+        width: 70px;
+        height: 150px;
+        margin-bottom: -225px;
+        margin-left: 55px;
+        opacity: .8;
+    }
+    
+    .mergurinewht2{
+        /* black */
+        width: 150px;
+        margin-left: 260px;
+        margin-top: -49px;
+        height: 200px;
+        opacity: .8;
+    }
+    /* End Kaligrafi */
+
+    .gambar-konten {
+        width: 400px;
+        height: 370px;
+    }
+
+    .goal-right {
+        width: 320px;
+        margin-top: 320px;
+        margin-right: 15px;
+    }
+
+    .goal {
+        height: 660px;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .goal-right h1 {
+        font-size: 2rem;
+        margin-top: -50px;
+    }
+
+    .goal-right p {
+        font-size: 14px;
     }
 
     .goal-left {
@@ -1716,22 +1917,44 @@
         top: 210px;
     }
 
-    /* PROJECT */
+    .projects {
+        transition: .3s ease-in-out;
+    }
+
+    /* Project */
     .project {
-        height: 1600px;
+        width: 400px;
+        height: 1400px;
     }
+
     .judul-halaman h1{
-        padding-top: 100px;
-        margin-bottom: 100px;
-        font-size: 2.2rem;
+        text-align: center;
+        font-size: 2.5rem;
+        font-family: "Alfa Slab One", sans-serif;
+        padding-top: 150px;
+        margin-bottom: 80px;
+        text-shadow: 2px 2px 1px red;
     }
+
     .kum-project {
+        display: grid;
+        grid-template-columns: 0.7fr 0.7fr 0.7fr;
+        gap: 3rem;
         grid-template-columns: auto;
-        gap: 4rem;
     }
+
     .priject-styl {
-        width: 220px;
-        height: 355px;
+        width: 180px;
+        height: 300px;
+        margin: auto;
+        border: 1px solid rgba(0, 0, 0, 0.582);
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.521);
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .bdr-white {
+        box-shadow: 2px 2px 2px 2px rgba(255, 255, 255, 0.521);
     }
 
     .priject-styl img {
@@ -1740,83 +1963,40 @@
     }
 
     .priject-styl h2 {
-        margin-top: 5px;
+        margin-top: 10px;
+        padding: 0 10px;
         font-size: 1rem;
+        text-align: center;
+        font-weight: 900;
+        font-family: "exo", sans-serif;
     }
 
     .priject-styl p {
-        font-size: 0.8rem;
-        margin-top: -5px;
+        padding: 20px;
+        text-align: center;
+        font-size: 0.66rem;
+        font-weight: 400;
     }
 
-    /* Skills */
-    .skill {
-        width: 340px;
-        height: 950px;
-    }
-
-    .list-skill {
-        height: 300px;
-    }
-
-    .list-skill ul {
-        margin-top: 24px;
-    }
-
-    .list-skill ul li {
-        font-size: 1rem;
-        font-family: "Alfa Slab One", sans-serif;
-        padding: 20px 0 20px 39px;
-        margin-bottom: 70px;
-        position: relative;
-    }
-
-    .list-skill ul li:before {
-        content: "";
-        width: 13px;
-        height: 13px;
-        background-color: red;
-        border: 1px solid green;
-        border-radius: 50%;
-        position: absolute;
-        top: 35%;
-        left: 0;
-    }
-
-    .pen-skill {
-        height: 300px;
-        padding-top: 20px;
-    }
-
-    .pen-skill p {
-        font-size: 0.9rem;
-        font-weight: 310;
-        padding: 10px 0 10px 40px;
-        position: relative;
-    }
-    /* KONTAK */
     .kontak-me{
         width: 400px;
-        height: 1120px;
+        height: 1200px;
     }
     
     .kum-kontak-3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         grid-template-columns: auto;
+        align-items: center;
+        margin: auto;
     }
     
     .sosmed {
-       margin-left: -1px;
-       margin-top: 20px;
-    }
-
-    input {
-        width: 330px;
-    }
-    textarea {
-        width: 330px;
-    }
-    .btn button {
-        width: 330px;
+        width: 400px;
+        height: 400px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
     
     .Icon {
@@ -1834,292 +2014,74 @@
     }
     
     .kotak-form {
-        width: 500px;
+        width: 300px;
         height: 450px;
         padding-top: 25%;
         margin: auto;
         margin-top: -10px;
         position: relative;
     }
-}
-
-@media screen and (max-width: 320px){
-    .container {
-        width: 310px;
-        margin: 0 auto;
-    }
-
-    /* BURGER */
-    .burger {
-        margin: 30px;
-        display: none;
-    }
-
-    .burger div {
-        width: 20px;
-        height: 2px;
-        background-color: black;
-        margin: 4px;
-    }
-    .burger {
-        display: block;
-        z-index: 999;
-    }
-
-    .logo h1 {
-        font-size: 1.3rem;
-    }
-
-    .nav {
-        width: 310px;
-        height: 115px;
-    }
-
-    nav {
-        width: 50%;
-        height: 100vh;
-        background-color: rgb(0, 155, 155);
-        border-left: 1px solid rgb(0, 0, 0);
-        position: fixed;
-        right: 0;
-        top: 0;
-        transform: translate(100%);
-        transition: .3s ease-in-out;
-    }
-
-    .bc-navu{
-        background-color: rgb(0, 83, 83);
-    }
-
-    nav ul {
-        display: flex;
-        flex-direction: column;
-        position: absolute;
-        left: 20%;
-        text-align: center;
-        margin-top: 50%;
-    }
-
-    nav ul li {
-        padding: 13px;
-    }
-
-    nav ul li a{
-        font-size: 0.9rem;
-        padding: 4px 9px;
-        background-color: rgb(255, 0, 0);
-        color: white;
-        box-shadow: 2px 2px 2px black;
-        border-radius: 10px;
-        border: 1px solid black;
-    }
-
-    nav ul li a:active {
-        background-color: white;
-    }
-
-    .nav-open{
-        transform: translate(0);
-        transition: .3s ease-in-out;
-    }
-
-    .animate-burger .line1 {
-        transform: rotate(45deg) translate(0px, 9px);
-        transition: .3s ease-in-out;
-    }
-
-    .animate-burger .line2 {
-        opacity: 0;
-        transition: .2s ease-in-out;
-    }
-
-    .animate-burger .line3 {
-        transform: rotate(-45deg) translate(0px, -9px);
-        transition: .3s ease-in-out;
-    }
-
-    /* TENTANG */
-    .tentang {
-        display: grid;
-        grid-template-columns: 1fr;
-        text-align: center;
-    }
-
-    .tentang-left {
-        margin-top: -40px;
-    }
-    .tentang-left .names {
-        font-size: .7rem;
-        font-weight: 400;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-    }
-
-    .tentang-left h1 {
-        font-size: 1.4rem;
-        margin-bottom: 30px;
-    }
-
-    .tentang-left p {
+    
+    .form-kontak {
         margin: auto;
-        width: 290px;
-        font-size: 0.9rem;
     }
 
-    .tentang-right {
-        padding-top: 80px;
-        margin: auto;
-        order: -1;
-    }
-
-    .tentang-right img {
+    input {
         width: 250px;
-        height: 200px;
+        height: 45px;
+        padding: 15px;
+        border-radius: 15px;
+        background-color: rgba(224, 224, 224, 0.575);
+        border: 1px solid red;
+        resize: none;
     }
 
-    /* GOALS */
-    .goal {
-        height: 800px;
+    textarea {
+        width: 250px;
+        height: 100px;
+        border-radius: 7px;
+        padding: 10px;
+        background-color: rgba(224, 224, 224, 0.575);
+        border: 1px solid red;
+        resize: none;
     }
 
-    .goal-left .mergurine {
-        width: 225px;
-        height: 130px;
-        margin-top: -130px;
-    }
-
-    /* Kaligrafi */
-    .black-kaligrafi {
-        width: 900px;
-        height: 750px;
-    }
-    .mergurine1{
-        /* black */
-        width: 70px;
-        height: 120px;
-        margin-left: 13px;
-        margin-bottom: 110px;
-        opacity: .8;
-    }
-    
-    .mergurine2{
-        /* black */
-        width: 140px;
-        margin-left: 109px;
-        margin-bottom: 150px;
-        margin-top: -50px;
-        height: 200px;
-        opacity: .8;
-    }
-    
-    .white-kaligrafi {
-        display: none;
-        width: 800px;
-        height: 750px;
-    }
-    .mergurinewht1{
-        /* black */
-        width: 70px;
-        height: 120px;
-        margin-left: 13px;
-        margin-bottom: 110px;
-        opacity: .8;
-    }
-    
-    .mergurinewht2{
-        /* black */
-        width: 140px;
-        margin-left: 109px;
-        margin-bottom: 150px;
-        margin-top: -50px;
-        height: 200px;
-        opacity: .8;
-    }
-    /* End Kaligrafi */
-
-    .goal-right {
-        width: 380px;
-        margin-top: 160px;
-        right: 10px;
-    }
-
-    .goal {
-        height: 700px;
-    }
-
-    .goal-right h1 {
-        font-size: 1.5rem;
-    }
-
-    .goal-right p {
-        font-size: 12px;
-        width: 300px;
-        margin-left: 78px;
-    }
-
-    .goal-left {
-        padding-top: 56px;
-    }
-
-    .goal-left .mergurine {
-        top: 210px;
-    }
-
-    /* PROJECT */
-    .project {
-        height: 1600px;
-    }
-    .judul-halaman h1{
-        padding-top: 100px;
-        margin-bottom: 100px;
-        font-size: 2rem;
-    }
-    .kum-project {
-        grid-template-columns: auto;
-        gap: 4rem;
-    }
-    .priject-styl {
-        width: 220px;
-        height: 355px;
-    }
-
-    .priject-styl img {
-        width: 100%;
-        height: 35%;
-    }
-
-    .priject-styl h2 {
-        margin-top: 5px;
+    .btn button {
+        margin-top: 20px;
+        width: 250px;
+        height: 45px;
+        border-radius: 15px;
+        background-color: red;
+        color: white;
+        border: 1px black solid;
+        box-shadow: 1px 1px 1px black;
         font-size: 1rem;
     }
-
-    .priject-styl p {
-        font-size: 0.8rem;
-        margin-top: -5px;
-    }
-
-    /* Skills */
+    
     .skill {
-        width: 300px;
-        height: 1050px;
+        height: 1000px;
     }
-
+    
+    .kum-skill {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        padding-top: 100px;
+        margin-top: -90px;
+    }
+    
     .list-skill {
         height: 300px;
     }
-
-    .list-skill ul {
-        margin-top: 24px;
-    }
-
+    
     .list-skill ul li {
         font-size: 1rem;
         font-family: "Alfa Slab One", sans-serif;
-        padding: 20px 0 20px 39px;
-        margin-bottom: 70px;
+        padding: 20px 0 20px 40px;
         position: relative;
+        margin-bottom: 85px;
     }
-
+    
     .list-skill ul li:before {
         content: "";
         width: 13px;
@@ -2131,70 +2093,113 @@
         top: 35%;
         left: 0;
     }
-
+    
     .pen-skill {
         height: 300px;
         padding-top: 20px;
     }
-
+    
     .pen-skill p {
-        font-size: 0.9rem;
+        font-size: 1rem;
         font-weight: 310;
         padding: 10px 0 10px 40px;
         position: relative;
     }
-    /* KONTAK */
-    .kontak-me{
-        width: 300px;
-        height: 1120px;
+    
+    .pen-skill p:before {
+        content: "";
+        width: 3px;
+        height: 64px;
+        background-color: rgba(153, 153, 153, 0.5);
+        position: absolute;
+        left: 0;
+        top: 0;
     }
     
-    .kum-kontak-3 {
-        grid-template-columns: auto;
+    hr {
+        color: black;
     }
-    
-    .sosmed {
-       margin-left: -1px;
-       margin-top: 20px;
+}
+
+
+@media screen and (max-width: 390px){
+    .container {
+        width: 360px;
+        margin: 0 auto;
     }
 
-    input {
-        width: 250px;
+    .nav {
+        width: 360px;
+        height: 115px;
     }
-    textarea {
+
+    .goal-left .mergurine {
         width: 250px;
+        height: 150px;
+        margin-left: 3%;
+        margin-top: -110px;
     }
-    .btn button {
-        width: 250px;
+    .mergurine1 {
+        width: 70px;
+        height: 150px;
+        margin-bottom: -225px;
+        margin-left: 25px;
+        opacity: .8;
+    }
+
+    .mergurine2 {
+        width: 140px;
+        margin-left: 235px;
+        margin-top: -49px;
+        height: 200px;
+        opacity: .8;
+    }
+    .mergurinewht1{
+        /* black */
+        width: 70px;
+        height: 150px;
+        margin-bottom: -225px;
+        margin-left: 25px;
+        opacity: .8;
     }
     
+    .mergurinewht2{
+        /* black */
+        width: 140px;
+        margin-left: 235px;
+        margin-top: -49px;
+        height: 200px;
+        opacity: .8;
+    }
+    .black-kaligrafi {
+        width: 300px;
+        height: 450px;
+    }
+
+    .gambar-konten {
+        width: 300px;
+        height: 370px;
+    }
+
+    .sosmed {
+        width: 300px;
+        height: 400px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
     .Icon {
         display: flex;
         flex-direction: column;
         margin-top: 17px;
-    }
-    
-    .text-icon {
-        margin-top: -19px;
-        margin-left: -130px;
-    }
-    
-    .k-txt {
-        margin: auto;
-    }
-    
-    .text-icon h4 {
-        margin: 63px;
-        margin-left: -5px;
-        font-size: 14px;
+        margin-left: -30px;
     }
 
-    .kotak-form {
-        width: 500px;
-        height: 450px;
-        padding-top: 25%;
-        margin: auto;
-        margin-top: -10px;
-        position: relative;
+    .goal-right {
+        width: 340px;
+        margin-top: 320px;
+    }
+    .skill {
+        height: 1100px;
     }
 }
